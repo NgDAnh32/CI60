@@ -1,0 +1,12 @@
+-Lập trình hướng đối tượng (OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code trừu tượng hóa các đối tượng.
+-object: gồm phương thức và thuộc tính
++ thuộc tính là những đặc điểm của đối tượng ví dụ đối tượng là con người thì là: tay, chân, mũi. (nếu học C++ thì em thấy nó chính là kiểu dữ liệu).
++ phương thức là những hoạt động của của đối tượng đó ví dụ như là : ăn, ngủ, chạy,... (nếu mà trong C++ thì em thấy nó giống với những hàm con mà mình có thể truy cập tới)
+- lớp: hiểu nôm na thì nó là một lớp gồm nhiều thuộc tính và phương thức giống nhau của một đối tượng.
+-OOP có 4 tính chất chính là : 
++ tính trừu tượng : là mô phỏng lại những đối tượng ngoài đời vào thành code.(trừu tượng hóa).
++ tính đóng gói: là các thuộc tính và phương thức đắc thù , riêng biệt sẽ được khai báo ở private . đảm bảo cho tính đặc thù riêng và đóng gói.
++ tính kế thừa: lớp con có thể kế thừa từ lớp cha và tận dụng lại những phương thức của lớp cha . tiện cho việc không phải code lại những thứ đã có từ lớp cha.
++ tính đa hình: là ta có thể thực hiện một hành động (phương thức) với nhiều cách khác nhau. rõ ràng nhất là ở ghi đè và nạp chồng
+    + ghi đè là ở lớp cha đã có hành động đó , nhưng lớp con cũng có hành động đó nhưng khong giống lớp cha nên ta có thể ghi đè lại hành động đó(phương thức)
+    + nạp chồng là cùng là hành động(phương thức) đó nhưng kiểu dữ liệu và đưa vào và số lượng tham số đưa vào là khác nhau. 

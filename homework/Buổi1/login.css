@@ -1,0 +1,101 @@
+* {
+    font-family: 'Dancing Script', cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://chiase24.com/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-background-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-11.jpg);
+    /* background-size: cover;
+    background-position: center; */
+    background-size: 100%;
+    
+}
+
+.loginform {
+    width: 600px;
+    height: 600px;
+    background:white;
+    color: #767676;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+    
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.social-container {
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-container a {
+    border: 1px solid #DDDDDD;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+.fb {
+    background-color: #3B5998;
+    color: white;
+    margin-left: 30px;
+}
+.google {
+    background-color: #dd4b39;
+    color: white;
+    margin-right: 30px;
+}
+p{
+    margin: 0;
+    padding: 0 35px 20px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 15px;
+}
+input {
+    width: 430px;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="password"]
+{
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    width: 450px;
+    height: 50px;
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #f0e5c7;
+    color: #000;
+}
+.SignUp{
+    text-align: center;
+}
