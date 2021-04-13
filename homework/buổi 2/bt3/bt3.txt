@@ -1,0 +1,8 @@
+Web components là một tập các quy chuẩn công nghệ dùng cho việc xây dựng các thành phần trang web được đóng gói (tách biệt với phần code còn lại của ứng dụng) và có thể tái sử dụng.
+Cần dùng webcomponent vì: webcomponent được xây dựng trên chuẩn web hiện tại, vì thế có thể hoạt động
+trên tất cả các trình duyệt, có thể tương thích với tất cả các library và framework của Javascript có thể 
+làm việc với HTML. Nó còn cung cấp trải nghiệm tốt nhất cho người sử dụng.
+Để đạt được khả năng đóng gói kể trên thì Web components sử dụng 3 công nghệ là Custom Elements, Shadow DOM, và HTML Templates.
+ + Custom Element: Đây là các thành phần HTML hợp lệ với các template, behaviors và tag name tùy chỉnh
+ + Shadow DOM: Có khả năng cô lập CSS và JS
+ + HTML templates: Các template do người dùng xác định trong HTML không được hiển thị cho đến khi được gọi
