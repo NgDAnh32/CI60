@@ -1,0 +1,39 @@
+.register-form{
+    width: 500px;
+    background-color: rgb(241, 214, 214);
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.register-form .register-btn {
+    margin-top:20px;
+    height:30px;
+    width:91%;
+    background-color: #4A8AF4;
+    border: 1px solid #4A8AF4;
+    border-radius: 10px;
+    color:white;
+    margin-left: 20px;
+}
+.register-form .title {
+    text-align: center;
+    margin: 30px 0px;
+}
+.register-form .sub-title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.name {
+    width: 99%;
+}
+.email {
+    width: 99%;
+}
+.password {
+    width: 99%;
+}
+.password-confirmation{
+    width: 99%;
+}

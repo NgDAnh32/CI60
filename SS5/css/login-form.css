@@ -1,0 +1,23 @@
+.login-form{
+    width:500px;
+    background-color: rgb(241, 214, 214);
+    height:500px;
+    border: 1px solid black;
+}
+.login-form h2{
+    text-align:center;
+    padding-top:20px;
+    margin-bottom:140px;
+    color:black
+}
+
+.login-btn{
+    margin-top:20px;
+    height:30px;
+    width:91%;
+    background-color: #4A8AF4;
+    border: 1px solid rgb(241, 215, 215);
+    border-radius: 10px;
+    color:white;
+    margin-left: 20px;
+}

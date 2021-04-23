@@ -1,0 +1,18 @@
+@import url(./input-wrapper.css);
+@import url(./register-form.css);
+@import url(./login-form.css);
+* {
+    font-family: 'Roboto', sans-serif;
+   
+}
+#app {
+    display:flex;
+    justify-content:center;
+    margin-top: 100px;
+    border-radius:  10px;
+}
+
+body {
+    background-size: 100%;
+    background:url(https://i.pinimg.com/originals/1f/b9/70/1fb97057baad527cca31684716ce8cd2.jpg);
+}
